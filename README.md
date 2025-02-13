@@ -6,29 +6,29 @@ Follow this guide on downloading git: https://git-scm.com/downloads/win
 
 # Setting up SSH key (if you're using SSH)
 Follow the following instructions
-    a. Generate new SSH key (if you don't already have to): ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-    b. Copy the contents of your public SSH key to your clipboard: cat ~/.ssh/id_rsa.pub
-    c. Verify SSH connection to Github: ssh -T git@github.com 
+1. Generate new SSH key (if you don't already have to): ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+2. Copy the contents of your public SSH key to your clipboard: cat ~/.ssh/id_rsa.pub
+3. Verify SSH connection to Github: ssh -T git@github.com 
         (You should be seeing something like "Hi username! You've successfully authenticated, but GitHub does not provide shell access.")
 
 
 # Pull project from Github
 Pull the repo in your terminal using one of the following methods:
-    a. HTTPS
+1. HTTPS
         i. git clone https://github.com/tleetyson/fetch-assessment.git
-    b. SSH
+2.  SSH
         ii. git clone git@github.com:tleetyson/fetch-assessment.git
 
 # Installing Python
 Follow the following steps that correlate to your OS:
-    a. Windows
+1. Windows
         i. Download python following this website: https://www.python.org/downloads/
         ii. Open the downloaded installer file (python-<version>-amd64.exe).
             !!! Important: Check the box that says "Add Python to PATH" before clicking on "Install Now" !!! (This ensures Python is accessible from the command line)
         iii. In the terminal (command prompt), run either of these commands to verify python is installed: "python --version", python3 --version
         iv. In the terminal (command prompt), run either of these commands to verify pip (python's package installer) is installed: 
                 "pip --version"
-    b. Linux/MacOS
+2. Linux/MacOS
         i. Varying Systems
             1. Ubuntu/Debian-based systems: 
                 a. run "sudo apt update"
@@ -68,7 +68,7 @@ Go into the directory and follow the following instructions
     a. Build Docker image in your directory: run "docker build -t my-image-name ."
     b. Check built image: run "docker images"
     c. Run Docker image with correct port: run "docker run -p 443:443 <image-name>"
-    
+
 
 
 
