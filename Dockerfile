@@ -11,6 +11,7 @@ FROM python:3.9-slim
 WORKDIR /app
 COPY --from=build /app /app
 
+EXPOSE 443
 USER root
 
 ENTRYPOINT ["python", "main.py"]
