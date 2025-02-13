@@ -22,12 +22,11 @@ Pull the repo in your terminal using one of the following methods:
 # Installing Python
 Follow the following steps that correlate to your OS:
 - Windows
-    - Download python following this website: https://www.python.org/downloads/
-        Open the downloaded installer file (python-<version>-amd64.exe).
-            !!! Important: Check the box that says "Add Python to PATH" before clicking on "Install Now" !!! (This ensures Python is accessible from the command line)
-        iii. In the terminal (command prompt), run either of these commands to verify python is installed: "python --version", python3 --version
-        iv. In the terminal (command prompt), run either of these commands to verify pip (python's package installer) is installed: 
-                "pip --version"
+    1.  Download python following this website: https://www.python.org/downloads/
+    2. Open the downloaded installer file (python-<version>-amd64.exe).
+        - !!! Important: Check the box that says "Add Python to PATH" before clicking on "Install Now" !!! (This ensures Python is accessible from the command line)
+    3. In the terminal (command prompt), run either of these commands to verify python is installed: "python --version", python3 --version
+    4. In the terminal (command prompt), run either of these commands to verify pip (python's package installer) is installed: "pip --version"
 - Linux/MacOS
     - a. Varying Systems
         - i. Ubuntu/Debian-based systems: 
