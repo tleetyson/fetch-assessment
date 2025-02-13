@@ -1,0 +1,135 @@
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch index page
+  url: https://fetch.com/
+
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch careers page
+  url: https://fetch.com/careers
+
+- body: '{"foo":"bar"}'
+  headers:
+    content-type: application/json
+    user-agent: fetch-synthetic-monitor
+  method: POST
+  name: fetch some fake post endpoint
+  url: https://fetch.com/some/post/endpoint
+
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch contact page
+  url: https://fetch.com/contact
+
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch about us page
+  url: https://fetch.com/about
+
+- body: '{"email":"test@example.com", "message":"hello"}'
+  headers:
+    content-type: application/json
+    user-agent: fetch-synthetic-monitor
+  method: POST
+  name: send contact form
+  url: https://fetch.com/contact/submit
+
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch help page
+  url: https://fetch.com/help
+
+- body: '{"id":"1234", "status":"active"}'
+  headers:
+    content-type: application/json
+    user-agent: fetch-synthetic-monitor
+  method: POST
+  name: update user status
+  url: https://fetch.com/user/update
+
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch blog page
+  url: https://fetch.com/blog
+
+- body: '{"username":"testuser", "password":"securepassword"}'
+  headers:
+    content-type: application/json
+    user-agent: fetch-synthetic-monitor
+  method: POST
+  name: login to fetch
+  url: https://fetch.com/login
+
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch faq page
+  url: https://fetch.com/faq
+
+- body: '{"query":"search term"}'
+  headers:
+    content-type: application/json
+    user-agent: fetch-synthetic-monitor
+  method: POST
+  name: submit search query
+  url: https://fetch.com/search
+
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch profile page
+  url: https://fetch.com/profile
+
+- body: '{"order_id":"9876", "status":"shipped"}'
+  headers:
+    content-type: application/json
+    user-agent: fetch-synthetic-monitor
+  method: POST
+  name: update order status
+  url: https://fetch.com/order/update
+
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch terms and conditions page
+  url: https://fetch.com/terms
+
+- body: '{"feedback":"Great experience!"}'
+  headers:
+    content-type: application/json
+    user-agent: fetch-synthetic-monitor
+  method: POST
+  name: submit feedback
+  url: https://fetch.com/feedback
+
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch privacy policy page
+  url: https://fetch.com/privacy-policy
+
+- body: '{"item_id":"101", "quantity":2}'
+  headers:
+    content-type: application/json
+    user-agent: fetch-synthetic-monitor
+  method: POST
+  name: add to cart
+  url: https://fetch.com/cart/add
+
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch home page
+  url: https://fetch.com/home
+
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch pricing page
+  url: https://fetch.com/pricing
